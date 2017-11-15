@@ -10,10 +10,10 @@ console.log("************************************************************"+__dir
 module.exports = {
     entry: path.resolve(__dirname, 'app/index.jsx'),
     output: {
-        path: __dirname + "/build", 
-        filename: "bundle.js"
-        //publicPath: "./app/"
-    },
+        path: __dirname + "/client/static", 
+        filename: "bundle.js",
+        publicPath: "client/static/"
+    },    
     devtool:'source-map',
     resolve:{
         extensions:['', '.js','.jsx']
