@@ -5,8 +5,8 @@ export function getAdData(){
 }
 
 export function getListData(city, page){
-
-  var result = get('/api/homelist/' + encodeURIComponent(city) + '/' +page);
+  var data={city:city,page:page}
+  var result = get('api/homelist',data);
   return result;
 
 }

@@ -45,6 +45,7 @@ class SearchList extends React.Component {
     const cityName = this.props.userinfo.cityName
     const keyword = this.props.keyword || ''
     const category = this.props.category
+    console.log("cityName:"+cityName+" keyword:"+keyword+" category"+category)
     const result = getSearchData(0, cityName, category, keyword)
     this.resultHandle(result)
   }

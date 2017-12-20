@@ -56,7 +56,6 @@ class List extends React.Component {
         const page = this.state.page
         const result = getListData(cityName, page)
         this.resultHandle(result)
-        console.log("*********"+JSON.stringify(result));
 
         // 增加 page 技术
         this.setState({
@@ -71,12 +70,11 @@ class List extends React.Component {
         }).then(json => {
             const hasMore = json.hasMore
             const data = json.data
-            console.log(data instanceof Array);
-            data.forEach(function(value,index){
-                console.log("&&&&*****"+JSON.stringify(value));
+           
+           /*  data.forEach(function(value,index){
                 value.img= require('../../../images/list/' +value.img);
 
-            })
+            }) */
            // 
             this.setState({
                 hasMore: hasMore,

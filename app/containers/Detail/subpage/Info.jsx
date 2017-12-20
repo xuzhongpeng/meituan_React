@@ -30,16 +30,18 @@ class Info extends React.Component {
     getInfo() {
         const id = this.props.id
         const result = getInfoData(id)
+        console.log("result:****"+JSON.stringify(result))
         result.then(res => {
             return res.json()
         }).then(json => {
+            console.log(JSON.stringify(json))
             this.setState({
                 info: json
             })
         }).catch(ex => {
-            if (__DEV__) {
-                console.error('详情页，获取商户信息出错')
-            }
+           /*  if (__DEV__) { */
+                console.error('详情页，获取商户信息出错'+ex.message)
+           /*  } */
         })
     }
 }

@@ -28,18 +28,22 @@
     "koa-router": "^5.4.0",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
+    "nodemon": "^1.12.1",
     "open-browser-webpack-plugin": "0.0.2",
     "postcss-loader": "^0.11.0",
     "react-transform-hmr": "^1.0.4",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.15.0"
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^1.15.0",
+    "webpack-hot-middleware": "^2.20.0"
   },
   "dependencies": {
     "es6-promise": "^3.2.1",
     "express": "^4.16.2",
     "immutable": "^3.8.1",
+    "mongodb": "^2.2.33",
     "react": "^15.3.2",
     "react-addons-css-transition-group": "^15.3.1",
     "react-addons-pure-render-mixin": "^15.3.1",

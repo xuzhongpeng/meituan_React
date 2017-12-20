@@ -1,6 +1,7 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import SearchInput from '../SearchInput'
+import { hashHistory } from 'react-router'
 import './style.less'
 class SearchHeader extends React.Component {
     constructor(props, context) {
@@ -25,7 +26,7 @@ class SearchHeader extends React.Component {
         window.history.back()
     }
     enterHandle(value) {
-        hashHistory.push('/search/all/' + encodeURIComponent(value))
+        hashHistory.push('/search/' + encodeURIComponent(value))
     }
 }
 export default SearchHeader

@@ -81,9 +81,9 @@ class Comment extends React.Component {
                 data: this.state.data.concat(data)
             })
         }).catch(ex => {
-            if (__DEV__) {
+            /* if (__DEV__) { */
                 console.error('详情页获取用户评论数据出错, ', ex.message)
-            }
+            /* } */
         })
     }
 }
