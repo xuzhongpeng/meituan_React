@@ -19,7 +19,6 @@ README.md
 ----
 ![Demo](http://img.blog.csdn.net/20170611144642685?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTWFnaWNfc29mdHdhcmU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-  [GitHub 地址][4]
   [在线演示][5]
 
 
@@ -98,8 +97,6 @@ README.md
 ----------
 [1]:http://reactjs.cn/
 [2]:http://redux.js.org/
-
-[4]:https://github.com/Magiccwl/dzdp-react
 [5]:http://47.94.201.62:4000/
 [6]:https://github.com/Magiccwl/dzdp-react/tree/main_page_dzdp
 [7]:https://github.com/Magiccwl/dzdp-react/tree/city_page_dzdp
